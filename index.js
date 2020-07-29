@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'f!help') {
-    msg.reply('f!commands');
+  if (msg.content === 'f!hi') {
+    msg.reply('f!hello');
   }
 });
 
